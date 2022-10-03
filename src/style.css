@@ -9,6 +9,7 @@ html,
 body
 {
     overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .experience
@@ -16,4 +17,15 @@ body
     position: fixed;
     width: 100vw;
     height: 100vh;
+    z-index: -1;
+}
+
+h1 {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    color: white;
 }
